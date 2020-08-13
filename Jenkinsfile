@@ -1,6 +1,6 @@
 pipeline {
     agent {
-        label "dockerworker"
+        label "vm-master"
     }
     stages {
         stage('Build') {
